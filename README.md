@@ -7,8 +7,7 @@ We deployed data augmentation algorithms and used Transfer Learning approaches t
 
 
 ## Dependencies
-Tensorflow
-Keras
+Tensorflow and Keras
 
 ## Dataset
 Chest X-Ray Images - Pneumonia [https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia]
