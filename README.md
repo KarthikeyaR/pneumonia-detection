@@ -20,13 +20,25 @@ Chest X-Ray Images - Pneumonia [https://www.kaggle.com/paultimothymooney/chest-x
 ## Results
 
 ### Normal vs Pneumonia Classification
+
+|   Models  | Precision | Recall | Accuracy | F1 Score | AUC |
+|:---------:|:---------:|:------:|:--------:|:--------:|:---:|
+|   VGG16   |   87.55   |  99.23 |   90.71  |   93.02  |  88 |
+| Inception |   87.27   |  98.46 |   90.06  |   92.53  |  87 |
+|  Densenet |   90.77   |  95.89 |   91.34  |   93.26  |  90 |
+|   Resnet  |   92.95   |  95.64 |   92.95  |   94.43  |  92 |
+|    CNN    |   89.76   |  96.66 |   91.03  |   93.08  |  91 |
+
 ![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/normal-accuracy.PNG?raw=true)
 
-![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/normal-precision-recall-f1-auc.PNG?raw=true){:height="100%" width="50%"}
-
-
 ### Bacterial vs. Viral Pneumonia Classification
-![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/pneumonia-accuracy.PNG?raw=true)
 
-![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/pneumonia-precision-recall-f1-auc.PNG?raw=true)
-{:height="100%" width="50%"}
+|   Models  | Precision | Recall | Accuracy | F1 Score |  AUC |
+|:---------:|:---------:|:------:|:--------:|:--------:|:----:|
+|   VGG16   |    100    |  66.89 |   87.43  |   80.16  | 0.83 |
+| Inception |   87.27   |  98.46 |   90.06  |   92.53  | 0.87 |
+|  Densenet |   89.47   |  57.43 |  81.282  |  69.958  | 0.77 |
+|   Resnet  |   86.98   |  85.81 |   89.74  |   86.39  | 0.89 |
+|    CNN    |   94.736  |  72.97 |  88.205  |   82.44  | 0.85 |
+
+![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/pneumonia-accuracy.PNG?raw=true)
