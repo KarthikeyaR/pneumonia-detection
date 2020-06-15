@@ -31,6 +31,8 @@ Chest X-Ray Images - Pneumonia [https://www.kaggle.com/paultimothymooney/chest-x
 
 ![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/normal-accuracy.PNG?raw=true)
 
+
+
 ### Bacterial vs. Viral Pneumonia Classification
 
 |   Models  | Precision | Recall | Accuracy | F1 Score |  AUC |
