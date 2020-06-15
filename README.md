@@ -21,10 +21,12 @@ Chest X-Ray Images - Pneumonia [https://www.kaggle.com/paultimothymooney/chest-x
 
 ### Normal vs Pneumonia Classification
 ![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/normal-accuracy.PNG?raw=true)
+
 ![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/normal-precision-recall-f1-auc.PNG?raw=true)
 
 
 ### Bacterial vs. Viral Pneumonia Classification
 ![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/pneumonia-accuracy.PNG?raw=true)
+
 ![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/pneumonia-precision-recall-f1-auc.PNG?raw=true)
 
