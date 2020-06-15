@@ -1,4 +1,4 @@
-# pneumonia-detection
+# Pneumonia Detection using Pediatric Chest X-Ray Images
 
 This study proposes the AI framework for diagnosis of pediatric pneumonia using chest X-ray images. We constructed a convolutional neural network model from scratch to extract features from a given chest X-ray image and classify it to determine if a child is infected with pneumonia.
 
