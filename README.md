@@ -8,10 +8,16 @@ We deployed data augmentation algorithms and used Transfer Learning approaches t
 
 ## Dependencies
 Tensorflow
+
 Keras
 
 ## Dataset
 Chest X-Ray Images - Pneumonia [https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia]
 
+## CNN Architecture
+
+![alt text](https://github.com/KarthikeyaR/pneumonia-detection/blob/master/model-plots/model-arch-ConvNet.PNG?raw=true)
+
 ## Results
+
 
